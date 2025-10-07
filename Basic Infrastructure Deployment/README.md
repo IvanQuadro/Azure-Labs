@@ -1,5 +1,19 @@
 ===== AZ-104 Basic Infra (PowerShell + Azure CLI) =====
 
+🧩 Project Overview — AZ-104 Basic Infrastructure
+
+This PowerShell + Azure CLI project automates the deployment of a basic cloud infrastructure in Azure, suitable for system administration and AZ-104 practice.
+It creates a complete environment including:
+
+. A Resource Group and Virtual Network with front/back subnets
+
+. A Network Security Group with an RDP rule
+
+. Two Virtual Machines (Windows frontend, Linux backend)
+
+. A Storage Account and Log Analytics Workspace for monitoring
+
+✅ Goal: Learn to provision, secure, and manage core Azure components using scripting and automation rather than the portal.
 
 ```powershell
 Subscription (set the active one)
