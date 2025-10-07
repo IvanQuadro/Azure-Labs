@@ -1,9 +1,13 @@
-# ===== AZ-104 Basic Infra (PowerShell + Azure CLI) =====
+===== AZ-104 Basic Infra (PowerShell + Azure CLI) =====
 
-# Subscription (set the active one)
+
+```powershell
+Subscription (set the active one)
+
 az account set --subscription "Azure subscription 1"
 
-# Variables
+Variables
+
 $rg         = "RG-BasicInfra"
 $location   = "westeurope"      # fallback: "northeurope"
 $vnet       = "VNet-Company"
@@ -55,3 +59,5 @@ az storage account create --name $storage --resource-group $rg --sku Standard_LR
 az monitor log-analytics workspace create --resource-group $rg --workspace-name $workspace --location $location
 
 Write-Host "Deployment complete. RG: $rg, Region: $location"
+
+```
