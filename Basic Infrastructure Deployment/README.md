@@ -75,3 +75,7 @@ az monitor log-analytics workspace create --resource-group $rg --workspace-name 
 Write-Host "Deployment complete. RG: $rg, Region: $location"
 
 ```
+```powershell
+# Run from PowerShell
+.\create_infra.ps1
+```
