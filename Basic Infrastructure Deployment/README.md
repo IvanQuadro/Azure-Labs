@@ -15,6 +15,20 @@ It creates a complete environment including:
 
 ✅ Goal: Learn to provision, secure, and manage core Azure components using scripting and automation rather than the portal.
 
+🧱 Architecture Overview
+
+Resource Group: RG-BasicInfra
+
+Network: VNet with 2 subnets (frontend + backend)
+
+Security: NSG with RDP inbound rule
+
+Compute: 1 Windows VM (public), 1 Linux VM (private)
+
+Storage: Standard_LRS account
+
+Monitoring: Log Analytics Workspace
+
 ```powershell
 Subscription (set the active one)
 
