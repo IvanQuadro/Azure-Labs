@@ -1,4 +1,4 @@
-===== AZ-104 Basic Infra (PowerShell + Azure CLI) =====
+# AZ-104 Basic Infrastructure Deployment (Azure CLI + PowerShell)
 
 🧩 Project Overview — AZ-104 Basic Infrastructure
 
