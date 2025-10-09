@@ -1,5 +1,9 @@
 
-# Project 2: Advanced NSG & Diagnostics (clean version)
+⚙️ AZ-104 Advanced NSG & Diagnostics (PowerShell + Azure CLI)
+📘 Overview
+
+This project extends the Basic Infrastructure Deployment by implementing Application Security Groups (ASG), custom NSG rules, and flow log diagnostics for deep network monitoring.
+It’s designed to simulate enterprise-level segmentation, traffic analytics, and security observability.
 
 ```powershell
 $ErrorActionPreference = "Stop"
