@@ -4,37 +4,6 @@
 This project automates the deployment of a basic Azure infrastructure using PowerShell and Azure CLI, ideal for AZ-104 practice and hands-on learning in system administration.
 It demonstrates how to create, secure, and monitor essential Azure resources entirely through scripting — no portal interaction needed.
 
-🏗️ What It Deploys
-
-🗂️ Resource Group — centralized container for all resources
-
-🌐 Virtual Network (VNet) — includes 2 subnets: frontend and backend
-
-🔒 Network Security Group (NSG) — allows RDP access for the Windows VM
-
-💻 Compute —
-
-1× Windows Server 2022 (public frontend)
-
-1× Ubuntu Server 22.04 (private backend)
-
-💾 Storage Account — general-purpose Standard_LRS
-
-📊 Log Analytics Workspace — for monitoring and diagnostics
-
-🎯 Goal
-
-Build a complete, minimal infrastructure-as-code (IaC) setup using Azure CLI.
-Learn how networking, compute, storage, and monitoring integrate in a real environment.
-
-🧱 Architecture Summary
-Component	Name	Purpose
-Resource Group	RG-BasicInfra	Logical container
-VNet	VNet-Company	Internal network with two subnets
-NSG	NSG-frontend	RDP/SSH traffic control
-VMs	VM-Frontend, VM-Backend	Windows + Linux hosts
-Storage	stcompany[random]	Data + diagnostics storage
-Log Analytics	LAW-Company	Log and performance analysis
 ```powershell
 Subscription (set the active one)
 
