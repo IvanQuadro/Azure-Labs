@@ -1,6 +1,5 @@
-# ============================
+
 # Project 2: Advanced NSG & Diagnostics (clean version)
-# ============================
 
 ```powershell
 $ErrorActionPreference = "Stop"
