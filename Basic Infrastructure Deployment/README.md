@@ -1,34 +1,40 @@
-# AZ-104 Basic Infrastructure Deployment (Azure CLI + PowerShell)
+🧩 AZ-104 Basic Infrastructure Deployment (PowerShell + Azure CLI)
+📘 Overview
 
-🧩 Project Overview — AZ-104 Basic Infrastructure
+This project automates the deployment of a basic Azure infrastructure using PowerShell and Azure CLI, ideal for AZ-104 practice and hands-on learning in system administration.
+It demonstrates how to create, secure, and monitor essential Azure resources entirely through scripting — no portal interaction needed.
 
-This PowerShell + Azure CLI project automates the deployment of a basic cloud infrastructure in Azure, suitable for system administration and AZ-104 practice.
-It creates a complete environment including:
+🏗️ What It Deploys
 
-. A Resource Group and Virtual Network with front/back subnets
+🗂️ Resource Group — centralized container for all resources
 
-. A Network Security Group with an RDP rule
+🌐 Virtual Network (VNet) — includes 2 subnets: frontend and backend
 
-. Two Virtual Machines (Windows frontend, Linux backend)
+🔒 Network Security Group (NSG) — allows RDP access for the Windows VM
 
-. A Storage Account and Log Analytics Workspace for monitoring
+💻 Compute —
 
-✅ Goal: Learn to provision, secure, and manage core Azure components using scripting and automation rather than the portal.
+1× Windows Server 2022 (public frontend)
 
-🧱 Architecture Overview
+1× Ubuntu Server 22.04 (private backend)
 
-Resource Group: RG-BasicInfra
+💾 Storage Account — general-purpose Standard_LRS
 
-Network: VNet with 2 subnets (frontend + backend)
+📊 Log Analytics Workspace — for monitoring and diagnostics
 
-Security: NSG with RDP inbound rule
+🎯 Goal
 
-Compute: 1 Windows VM (public), 1 Linux VM (private)
+Build a complete, minimal infrastructure-as-code (IaC) setup using Azure CLI.
+Learn how networking, compute, storage, and monitoring integrate in a real environment.
 
-Storage: Standard_LRS account
-
-Monitoring: Log Analytics Workspace
-
+🧱 Architecture Summary
+Component	Name	Purpose
+Resource Group	RG-BasicInfra	Logical container
+VNet	VNet-Company	Internal network with two subnets
+NSG	NSG-frontend	RDP/SSH traffic control
+VMs	VM-Frontend, VM-Backend	Windows + Linux hosts
+Storage	stcompany[random]	Data + diagnostics storage
+Log Analytics	LAW-Company	Log and performance analysis
 ```powershell
 Subscription (set the active one)
 
