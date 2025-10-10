@@ -1,3 +1,5 @@
+
+```powershell
 #STEP 1 – DEFINE VARIABLES
 $rg		="RG-BasicInfra"
 $location 	="westeurope"
@@ -31,3 +33,4 @@ az monitor metrics alert create -g $rg -n HighCPUAlert --scopes $vmFrontId --act
 
 #STEP 6 – VALIDATE AND MONITOR
 az monitor metrics alert list -g $rg -o table
+```
