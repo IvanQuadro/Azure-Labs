@@ -1,4 +1,10 @@
+💠 Azure Monitoring & Alerts Configuration (PowerShell + Azure CLI)
 
+📘 Overview
+This project expands on the Advanced NSG & Diagnostics Setup by adding active monitoring, automated alerts, and centralized log management.
+You’ll configure Log Analytics Workspaces, diagnostic settings, and metric alerts (e.g., CPU > 80%) linked to Action Groups for real-time email notifications.
+
+It simulates an enterprise-grade monitoring system designed to ensure visibility, responsiveness, and reliability across Azure resources.
 ```powershell
 #STEP 1 – DEFINE VARIABLES
 $rg		          ="RG-BasicInfra"
