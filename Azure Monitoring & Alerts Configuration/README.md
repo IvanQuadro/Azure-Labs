@@ -1,13 +1,13 @@
 
 ```powershell
 #STEP 1 – DEFINE VARIABLES
-$rg		="RG-BasicInfra"
-$location 	="westeurope"
-$workspace	="Log-Workspace"
-$vmFront	="VM-Frontend"
-$vmBack		="VM-Backend"
+$rg		        ="RG-BasicInfra"
+$location 	  ="westeurope"
+$workspace	  ="Log-Workspace"
+$vmFront	    ="VM-Frontend"
+$vmBack		    ="VM-Backend"
 $actionGroup 	="AC-Group"
-$email		="email.com"
+$email		    ="email.com"
 
 #STEP 2 – REGISTER PROVIDERS
 az provider register -n Microsoft.Network
