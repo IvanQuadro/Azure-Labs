@@ -19,7 +19,7 @@ Each lab demonstrates how to deploy, configure, and manage cloud environments us
 |---|---------------|-------------|
 | 1 | **Basic Infrastructure Deployment** | Creates a resource group, VNet, subnets, NSG, two VMs (Windows + Linux), a storage account, and a Log Analytics workspace using PowerShell + Azure CLI. |
 | 2 | **Advanced NSG & Diagnostics Setup** | Adds Application Security Groups (ASGs), advanced NSG rules (HTTP, HTTPS, RDP, SSH), Flow Logs, and Diagnostic Settings integrated with Log Analytics for traffic monitoring and analysis. |
-| 3 | *(Coming soon)* | Azure Monitoring & Alerts configuration |
+| 3 | **Azure Monitoring & Alerts Configuration** |Implements active monitoring and automated alerts by linking Azure resources to a Log Analytics Workspace, creating Action Groups, and configuring metric-based rules for proactive cloud performance management. |
 
 ---
 
