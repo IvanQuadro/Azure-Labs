@@ -1,5 +1,5 @@
 
-
+```powershell
 #STEP 1 – DEFINE VARIABLES
 $rg            = "RG-basicInfra"
 $location      = "westeurope"
@@ -64,3 +64,4 @@ az monitor activity-log alert create \
   --condition category=Security and level=Warning \
   --action-group $actionGroup \
   --severity 0
+```
