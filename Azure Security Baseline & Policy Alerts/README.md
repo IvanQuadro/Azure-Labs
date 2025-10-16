@@ -1,4 +1,9 @@
+💠 Azure Security Baseline & Policy Alerts (PowerShell + Azure CLI)
 
+📘 Overview
+This project builds upon the advanced monitoring setup by implementing a complete security baseline and compliance framework in Azure. It integrates Microsoft Defender for Cloud, the Microsoft Cloud Security Benchmark (MCSB), and centralized log analytics to provide continuous protection, visibility, and governance.
+
+It simulates an enterprise-grade environment with automated policy enforcement, real-time security alerts, and activity log streaming — ensuring that every resource stays monitored, compliant, and auditable across the subscription.
 ```powershell
 #STEP 1 – DEFINE VARIABLES
 $rg            = "RG-basicInfra"
